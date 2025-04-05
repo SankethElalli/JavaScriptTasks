@@ -1,4 +1,3 @@
-// Person object creation
 class Person {
     constructor(name, age, gender, occupation) {
         this.name = name;
@@ -8,7 +7,6 @@ class Person {
     }
 }
 
-// Set operations
 function getUniqueNumbers(arr) {
     return new Set(arr);
 }
@@ -30,7 +28,7 @@ function isSubset(setA, setB) {
 }
 
 document.getElementById('printButton').addEventListener('click', function() {
-    // Objects Demo
+
     console.log("=== Objects ===");
     const person1 = new Person("John Doe", 30, "Male", "Developer");
     const person2 = new Person("Jane Smith", 25, "Female", "Designer");
@@ -38,7 +36,6 @@ document.getElementById('printButton').addEventListener('click', function() {
     console.log("Person 1:", person1);
     console.log("Person 2:", person2);
 
-    // Sets Demo
     console.log("\n=== Sets ===");
     const numbers = [1, 2, 2, 3, 3, 4, 5, 5];
     console.log("Original array:", numbers);
@@ -53,7 +50,6 @@ document.getElementById('printButton').addEventListener('click', function() {
     console.log("Difference (A-B):", [...setDifference(setA, setB)]);
     console.log("Is setA subset of setB:", isSubset(setA, setB));
 
-    // Maps Demo
     console.log("\n=== Maps ===");
     const userMap = new Map();
     userMap.set('user1', { name: 'John', role: 'Admin' });
