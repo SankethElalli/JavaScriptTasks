@@ -21,13 +21,3 @@ button {
 button:hover {
     background-color: #02036d;
 }
-
-#taskStatus {
-    margin-top: 20px;
-    padding: 10px;
-    color: #0003aa;
-}
-
-#taskStatus p {
-    margin: 5px 0;
-}
